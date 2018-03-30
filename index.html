@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Learn JavaScript- onClick-onLoad</title>
+  <script>
+   function changeMeClick() {
+    document.getElementById("test").innerHTML = "you clicked in the button";      
+   }
+ function changeMeDbClick() { document.getElementById("test").innerHTML = "you double clicked"; }
+  </script>
+</head>
+<body>
+<button onclick="changeMeClick()" ondblclick="changeMeDbClick()">Change Me</button>
+  
+  <div id="test">This is Test</div>
+  <script src="main.js"></script>
+</body>
+
+</html>
