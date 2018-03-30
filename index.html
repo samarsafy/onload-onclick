@@ -2,7 +2,7 @@
 <html lang ="en">
 <head>
   <meta charset="UTF-8">
-  <title>Learn JavaScript- onClick-onLoad</title>
+  <title>Learn JavaScript- onClick-onLoad- onkeydown, onkeyup, onkeypress</title>
   <script>
    function changeMeClick() {
     document.getElementById("test").innerHTML = "you clicked in the button";      
@@ -12,7 +12,9 @@
 </head>
 <body>
 <button onclick="changeMeClick()" ondblclick="changeMeDbClick()">Change Me</button>
-  
+  <input id="input" type="text">
+<button id="button">Calculate</button>
+  <div id="div"></div>
   <div id="test">This is Test</div>
   <script src="main.js"></script>
 </body>
